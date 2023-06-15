@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mental Health Survey</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+  <link rel="stylesheet" type="text/css" href="/emoji.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+</head>
+<body>
+    <h1 style="text-align: center;">Mental Health Survey ^_^</h1>
+    <div class="card-container">
+        <div class="card card1">
+            <div class="card-content">
+            
+          <h2>Question 1</h2>
+          <p>Rate your current mood on a scale of 1-5:</p>
+          <!--<input type="number" min="1" max="10">-->
+          <div class="rating">
+
+            <div class="rating-box">
+            <ul class="rating-preview">
+            <li>D:</li>
+            <li>:(</li>
+            <li>:|</li>
+            <li>:)</li>
+            <li>:D</li>
+            </ul>
+            </div>
+          
+          <ul class="rating-n question1">
+            <li><a href="#1"><span>1</span></a></li>
+            <li><a href="#2"><span>2</span></a></li>
+            <li><a href="#3"><span>3</span></a></li>
+            <li><a href="#4"><span>4</span></a></li>
+            <li><a href="#5"><span>5</span></a></li>
+          </ul>
+            
+          </div>
+          <img src="/img/mood.gif">
+          </div>
+        </div>
+      
+        <div class="card card2">
+            <div class="card-content">
+          <h2>Question 2</h2>
+          <p>How often do you experience stress?</p>
+          <div class="btn-group">
+          <button class="option">Rarely</button>
+          <button class="option">Sometimes</button>
+          <button class="option">Often</button>
+          </div>
+          <img src="/img/Meditation.gif">
+        </div>
+        </div>
+      
+        <div class="card card3">
+            <div class="card-content">
+                <h2>Question 3</h2>
+          <p>How often do you experience anxiety?</p>
+          <div class="btn-group">
+            <button class="option">Rarely</button>
+            <button class="option">Sometimes</button>
+            <button class="option">Often</button>
+          </div>
+          
+          <img src="/img/Alergy Season.gif" style="height: 300px; width: 400px;">
+            </div>
+          
+        </div>
+
+        <div class="card card4">
+            <div class="card-content">
+                <h2>Question 4</h2>
+                <p>Rate your sleep quality on a scale of 1-5:</p>
+                <div class="rating">
+
+                    <div class="rating-box">
+                    <ul class="rating-preview">
+                    <li>D:</li>
+                    <li>:(</li>
+                    <li>:|</li>
+                    <li>:)</li>
+                    <li>:D</li>
+                    </ul>
+                    </div>
+                  
+                  <ul class="rating-n question4">
+                    <li><a href="#1"><span>1</span></a></li>
+                    <li><a href="#2"><span>2</span></a></li>
+                    <li><a href="#3"><span>3</span></a></li>
+                    <li><a href="#4"><span>4</span></a></li>
+                    <li><a href="#5"><span>5</span></a></li>
+                  </ul>
+                    
+                  </div>
+                <img src="/img/Counting Sheep [GIF].gif"style="height: 300px; width: 400px; padding-top: 60px;">
+            </div>
+           
+          </div>
+
+          <div class="card card5">
+            <div class="card-content"> 
+                <h2  style="color:#FFFFFF">Question 5</h2>
+                <p style="color:#FFFFFF">Do you experience any of the following symptoms? 
+                    (Fatigue/Loss of appetite/Trouble concentrating/Feeling sad or down/Restlessness/Irritability)</p>
+                <input type="text">
+           <img src="/img/Depression.gif" style="height: 310px; width: 350px; padding-top: 10px;">
+          </div>
+         </div>
+
+          <div class="card card6">
+            <div class="card-content">
+                <h2>Question 6</h2>
+            <p>What are your primary coping mechanisms for managing stress? 
+                (Exercise/Meditation/Spending time with loved ones/Engaging in hobbies/Seeking professional help)</p>
+            <input type="text">
+            <img src="/img/Fox Artists On Tumblr GIF by Animation Domination High-Def - Find & Share on GIPHY.gif" style="height: 310px; width: 350px;">
+            </div>
+            
+          </div>
+          
+          <div class="card card7" id="lastcard">
+            <div class="card-content">
+                <h2>Question 7</h2>
+                <p>Do you feel adequately supported by your personal network?</p>
+                <div class="btn-group">
+                <button class="option">Yes</button>
+                <button class="option">No</button>
+                </div>
+                
+                <img src="/img/Lonely Friends GIF - Lonely Friends Heart Ache - Discover & Share GIFs.gif" style="height: 300px; width: 250px;">
+            </div>
+        
+          </div>
+      
+        <!-- Add more cards for the remaining questions -->
+        
+        <div class="button-container">
+          <button id="prevBtn">Previous</button>
+          <button id="nextBtn">Next</button>
+          <button id="submitBtn" style="display: none;">Submit</button>
+        </div>
+        
+      </div>
+
+      <div id="recommendationsSection" style="display: none;"></div>
+
+      
+
+  <script src="/script.js"></script>
+  <script src="/emoji.js"></script>
+ 
+
+</body>
+</html>

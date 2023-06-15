@@ -1,0 +1,124 @@
+.rating{
+    display:block;
+    clear:both;
+    list-style:none; 
+    text-align:center;
+    position:relative;
+    margin-top:20%;
+  }
+  
+  .rating-box{
+   position:absolute;
+    top:-60px;
+   
+    width:50px;
+    height:50px;
+    background:rgb(255, 162, 0);
+    border-radius:100%;
+    overflow:hidden;
+    margin-left: -514px;
+    text-align: center;
+  }
+  
+  .rating-n, .rating-preview{
+    list-style:none;
+    padding:0;
+    margin:0;
+    cursor:default
+  }
+  
+  .rating-n li, .rating-preview li{
+    display:inline-block;
+  }
+  
+  
+  .rating-preview li{
+  width:50px;
+  height:50px;
+  font-size: 30px;
+  line-height: 53px;
+  color: #da5f5f;
+  text-align: center;
+  }
+   
+  .rating-n{
+    background:#faf8f8;
+    border-radius:20px;
+    padding:5px;
+    width:250px;
+    margin:0 auto;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  .rating-n li {
+    display: inline-block;
+    margin: 0 10px}
+  
+  .rating-n li a{
+    background:#ccc;
+    border-radius:100%;
+    display:block;
+    width:20px;
+    height:20px;
+    text-decoration:none;
+    color:#000;
+    font-size:18px;
+  }
+  
+  .rating-n li span{
+    position:relative;
+    bottom:-35px;
+  }
+
+  .rating-n li.selected a {
+    background: #8e21b9;
+    color: #fff;
+  }
+  
+  .btn-group button {
+    background-color: #0441aa; /* Green background */
+    border: 1px solid rgb(128, 0, 109); /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /*Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #50c5cb;
+  }
+
+  .btn-group button.selected,.btn-group button:focus  {
+    background-color: #6fd6db;
+    font-weight: bold;
+  }
+
+  #recommendationsSection {
+    background-color: #f3eeee;
+    border: 3px solid #2b2828;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #recommendationsSection h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #recommendationsSection ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  #recommendationsSection li {
+    margin-bottom: 8px;
+  }
+  
